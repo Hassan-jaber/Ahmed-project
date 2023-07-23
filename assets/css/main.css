@@ -668,49 +668,6 @@ hr {
     color: rgba(55, 65, 81, 1);
     font-size: 20px;
   }
-/* ======================================= */
-.typewriter {
-  width: 60%;
-  background: #fff;
-}
-
-.typewriter p {
-  position: relative;
-}
-
-.typewriter.hide-cursor p:after {
-  opacity: 0;
-}
-
-.typewriter p:after {
-  content: "";
-  width: 2px;
-  height: 25px;
-  background: #00B7CE;
-  position: absolute;
-  opacity: 1;
-  animation: cursor 0.5s infinite;
-}
-.typewriter.remove-animation p:after {
-  animation: none;
-  background: transparent;
-}
-@keyframes cursor {
-  0% {
-    opacity: 1;
-    
-  }
-  99% {
-    opacity: 0;
-
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
-
-/* ====================================== */
 
   .header-button{
     width: 280px;

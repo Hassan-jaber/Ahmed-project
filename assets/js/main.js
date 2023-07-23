@@ -146,10 +146,10 @@ function typitvs(){
 
 // ========================
 
-document.addEventListener("DOMContentLoaded", function() {
-  // Wait for the page to load
-  setTimeout(function() {
-    const element = document.querySelector(".typewriter");
-    element.classList.add("remove-animation");
-  }, 10000); // 10 seconds delay (10000 milliseconds)
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   // Wait for the page to load
+//   setTimeout(function() {
+//     const element = document.querySelector(".typewriter");
+//     element.classList.add("remove-animation");
+//   }, 10000); // 10 seconds delay (10000 milliseconds)
+// });
