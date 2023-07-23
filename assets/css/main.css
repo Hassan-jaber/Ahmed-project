@@ -512,8 +512,6 @@ hr {
 .navbar-nav .nav-item {
   margin-left: 40px;
   position: relative; }
-  .navbar-nav .nav-item:first-child {
-    margin-left: 0; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-nav .nav-item {
       margin-left: 30px; } }
@@ -533,7 +531,7 @@ hr {
       position: absolute;
       width: 0%;
       height: 2px;
-      background: #F63854;
+      background: #00B7CE;
       bottom: -5px;
       left: 0;
       right: 0;
@@ -556,7 +554,7 @@ hr {
   .navbar-nav .nav-item:hover a::after {
     width: 100%; }
   .navbar-nav .nav-item.active > a, .navbar-nav .nav-item:hover > a {
-    color: #F63854; }
+    color: #00B7CE; }
   .navbar-nav .nav-item:hover .sub-menu {
     top: 100%;
     opacity: 1;

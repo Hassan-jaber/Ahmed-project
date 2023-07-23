@@ -266,6 +266,13 @@
     height: 40px;
     background-size: 120px 120px;
   }
+  .main-box-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #hero-area .contents .head-title{
+    font-size: 18px;
+  }
 }
 
 
