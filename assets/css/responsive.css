@@ -133,9 +133,6 @@
   .top-nav-collapse .navbar-brand img {
     margin-top: 10px;
   }
-  .intro-img {
-    margin-top: 20px;
-  }
   #hero-area .img-thumb {
     display: none;
   }
@@ -243,10 +240,14 @@
     font-size: 25px;
   }
 }
-
+@media (min-width: 576px) and (max-width: 766px) {
+  .intro-img {
+    margin-top: -45px;
+  }
+}
 
 /* small mobile*/
-@media (max-width: 576px) {
+@media (max-width: 576px) and (max-width: 766px) {
   .textwidget p{
     font-size: 16px;
   }
@@ -273,7 +274,12 @@
   #hero-area .contents .head-title{
     font-size: 18px;
   }
+.intro-img{    
+    margin-top: 65px;
+  } 
+  #hero-area {
+  background-position: center 0;
+  }
 }
-
 
 /*# sourceMappingURL=responsive.css.map */
