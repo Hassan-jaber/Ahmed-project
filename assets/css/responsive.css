@@ -248,10 +248,23 @@
 /* small mobile*/
 @media (max-width: 576px) {
   .textwidget p{
-    font-size: 13px;
+    font-size: 16px;
   }
   #hero-area {
     background-position: center 30px;
+  }
+  .main-box .whatsapp-btn{
+    width: 130px;
+    height: 40px;
+    padding: 0.7rem;
+  }
+  .header-button{
+    width: 260px;
+  }
+  .tabby{
+    width: 120px;
+    height: 40px;
+    background-size: 120px 120px;
   }
 }
 
