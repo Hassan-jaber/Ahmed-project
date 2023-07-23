@@ -71,7 +71,9 @@ a:not([href]):not([tabindex]) {
   font-size: 30px;
   color: #00B7CE;
   font-weight: 700;
-  position: relative; }
+  position: relative; 
+  margin-bottom: 8px;
+}
 
 .shape {
   height: 1px;
