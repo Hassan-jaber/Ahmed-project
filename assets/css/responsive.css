@@ -234,15 +234,14 @@
 
 
 /* small mobile*/
-/* @media (max-width: 576px) {
-  .intro-img{
-    display: flex;
-    justify-content: center;
+@media (max-width: 576px) {
+  .textwidget p{
+    font-size: 13px;
   }
-  .intro-img img{
-    max-width: 50%;
+  #hero-area {
+    background-position: center 30px;
   }
-} */
+}
 
 
 /*# sourceMappingURL=responsive.css.map */
