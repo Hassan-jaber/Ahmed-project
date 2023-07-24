@@ -65,8 +65,8 @@
     /* WOW Scroll Spy
     ========================================================*/
     var wow = new WOW({
-      //disabled for mobile
-        mobile: false
+      //enabled for mobile
+        mobile: true
     });
 
     wow.init();    
@@ -124,32 +124,3 @@
   });      
 
 }(jQuery));
-// ========================
-
-$(function(){
-  typitvs();
-});
-
-function typitvs(){
-  var p = $(".typewriter p");
-  var text = $(p).text();
-  $(p).text("");
-  var i = 0;
-  var len = text.length;
-  setInterval(function(){
-    if(i<len){
-      $(p).append(text[i]);
-      i++;
-    }
-  },100);
-}
-
-// ========================
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   // Wait for the page to load
-//   setTimeout(function() {
-//     const element = document.querySelector(".typewriter");
-//     element.classList.add("remove-animation");
-//   }, 10000); // 10 seconds delay (10000 milliseconds)
-// });
