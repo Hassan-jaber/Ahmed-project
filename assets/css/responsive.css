@@ -275,7 +275,7 @@
     font-size: 18px;
   }
 .intro-img img{    
-    margin-top: 75px;
+    margin-top: 65px;
   } 
   #hero-area {
   background-position: center 0;
@@ -283,3 +283,8 @@
 }
 
 /*# sourceMappingURL=responsive.css.map */
+
+/*
+      // style = hidden ? "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;" : "visibility: visible;";
+
+*/
